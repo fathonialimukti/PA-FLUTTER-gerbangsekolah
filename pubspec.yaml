@@ -1,0 +1,59 @@
+name: gerbangsekolah
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # system
+  provider: ^5.0.0
+  shared_preferences: ^2.0.5
+  # networking 
+  dio: ^4.0.0
+  pretty_dio_logger: ^1.1.1
+  # UI
+  sliding_sheet: ^0.5.0
+  floating_navbar: ^2.0.1
+  cupertino_icons: ^1.0.2
+  pull_to_refresh: ^2.0.0
+  fluttertoast: ^8.0.6
+  flutter_slidable: ^0.6.0
+  modal_bottom_sheet: ^2.0.0
+  font_awesome_flutter: ^9.1.0
+  email_validator: ^2.0.1
+  # launch meeting
+  jitsi_meet: ^4.0.0
+  url_launcher: ^6.0.4
+  # assignment
+  syncfusion_flutter_pdfviewer: ^19.1.58-beta
+  file_picker: ^3.0.2+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
